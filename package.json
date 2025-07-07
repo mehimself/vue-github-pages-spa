@@ -8,7 +8,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "deploy": "gh-pages -d dist",
-    "lint": "vue-cli-service lint --no-fix",
+    "lint": "eslint --ext .js,.vue src/",
+    "lint:fix": "eslint --ext .js,.vue src/ --fix",
     "preview": "npm run build && npm run serve:dist",
     "serve:dist": "npx serve -s dist -l 3000",
     "test": "npm run test:unit",
@@ -24,6 +25,9 @@
     "@vue/test-utils": "^2.0.0",
     "jest": "^27.0.0",
     "@vue/vue3-jest": "^27.0.0",
-    "babel-jest": "^27.0.0"
+    "babel-jest": "^27.0.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.20.0"
   }
 }
