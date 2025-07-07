@@ -1,5 +1,15 @@
 {
-  "name": "vue-github-pages-spa",
+  "name": "vue-gith  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "gh-pages": "^6.3.0",
+    "@vue/test-utils": "^2.0.0",
+    "jest": "^27.0.0",
+    "@vue/vue3-jest": "^27.0.0",
+    "babel-jest": "^27.0.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.20.0"
+  }a",
   "version": "1.0.0",
   "description": "A Vue.js single-page application hosted on GitHub Pages.",
   "author": "Your Name",
@@ -8,8 +18,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "deploy": "gh-pages -d dist",
-    "lint": "eslint --ext .js,.vue src/",
-    "lint:fix": "eslint --ext .js,.vue src/ --fix",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix",
     "preview": "npm run build && npm run serve:dist",
     "serve:dist": "npx serve -s dist -l 3000",
     "test": "npm run test:unit",
@@ -21,13 +31,13 @@
   },
   "devDependencies": {
     "@vue/cli-service": "^4.5.0",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^6.3.0",
     "@vue/test-utils": "^2.0.0",
     "jest": "^27.0.0",
     "@vue/vue3-jest": "^27.0.0",
     "babel-jest": "^27.0.0",
     "@vue/cli-plugin-eslint": "^4.5.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.20.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2"
   }
 }
