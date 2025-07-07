@@ -1,0 +1,20 @@
+{
+  "name": "vue-github-pages-spa",
+  "version": "1.0.0",
+  "description": "A Vue.js single-page application hosted on GitHub Pages.",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "gh-pages": "^3.2.3"
+  }
+}
